@@ -106,9 +106,12 @@
         "titles" : "Culture.code",
         "datatype" : "string"
       }, {
-        "name" : "NRRL accession",
+        "name" : "sourceOccurrenceId",
         "titles" : "NRRL accession",
-        "datatype" : "string"
+        "datatype" : {
+          "base": "string",
+          "valueUrl": "NRRL:{sourceOccurrenceId}"
+        }
       } ]
     }
   } ]
