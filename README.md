@@ -14,5 +14,8 @@ SuilluScope was built using the open source programming language R (https://www.
 (https://shiny.rstudio.com). If you have feature requests or a published dataset that you would like us to consider adding to SuilluScope
 please contact us via the website.
 
+# Indexing
 
+[![GloBI Review by Elton](../../actions/workflows/review.yml/badge.svg)](../../actions/workflows/review.yml) [![GloBI](https://api.globalbioticinteractions.org/interaction.svg?accordingTo=globi:MycoPunk/SuilluScope&refutes=true&refutes=false)](https://globalbioticinteractions.org/?accordingTo=globi:MycoPunk/SuilluScope)
 
+The data in this repository configured to be indexed by Global Biotic Interactions (GloBI, https://globalbioticinteractions.org). 

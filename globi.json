@@ -1,0 +1,115 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "Suillus_app_metadata.txt",
+    "dcterms:bibliographicCitation" : "Lofgren L, Nguyen NH, Kennedy P, Pérez-Pazo4 E, Fletcher J, Liao H-L, Wang H, Zhang K, Ruytinx J, Smith A, Ke Y-H, Cotter H.V., Engwall E, Hameed K.M., Vilgalys R, Branco S. 2026. Suillus: an emerging model for the study of ectomycorrhizal ecology and evolution. In review.",
+    "delimiter" : "\t",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "interactionTypeName": "hasEctomycorrhizalHost",
+    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002805",
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "sourceTaxonName",
+        "titles" : "Full Name",
+        "datatype" : "string"
+      }, {
+        "name" : "Assembly Length",
+        "titles" : "Assembly Length",
+        "datatype" : "string"
+      }, {
+        "name" : "Genome size Mbp",
+        "titles" : "Genome size Mbp",
+        "datatype" : "string"
+      }, {
+        "name" : "n Genes",
+        "titles" : "n Genes",
+        "datatype" : "string"
+      }, {
+        "name" : "Sequencing depth",
+        "titles" : "Sequencing depth",
+        "datatype" : "string"
+      }, {
+        "name" : "Scaffold N50",
+        "titles" : "Scaffold N50",
+        "datatype" : "string"
+      }, {
+        "name" : "Scaffold L50 Mbp",
+        "titles" : "Scaffold L50 Mbp",
+        "datatype" : "string"
+      }, {
+        "name" : "n Gaps",
+        "titles" : "n Gaps",
+        "datatype" : "string"
+      }, {
+        "name" : "n contigs",
+        "titles" : "n contigs",
+        "datatype" : "string"
+      }, {
+        "name" : "n scaffolds",
+        "titles" : "n scaffolds",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceCitation",
+        "titles" : "Publication",
+        "datatype" : "string"
+      }, {
+        "name" : "JGI prefix",
+        "titles" : "JGI prefix",
+        "datatype" : "string"
+      }, {
+        "name" : "Host group",
+        "titles" : "Host group",
+        "datatype" : "string"
+      }, {
+        "name" : "JF ploidy determination",
+        "titles" : "JF ploidy determination",
+        "datatype" : "string"
+      }, {
+        "name" : "seq platform",
+        "titles" : "seq platform",
+        "datatype" : "string"
+      }, {
+        "name" : "localityName",
+        "titles" : "Original collection Location",
+        "datatype" : "string"
+      }, {
+        "name" : "Original collection notes",
+        "titles" : "Original collection notes",
+        "datatype" : "string"
+      }, {
+        "name" : "http://rs.tdwg.org/dwc/terms/eventDate",
+        "titles" : "Original collection date",
+        "datatype" : "string"
+      }, {
+        "name" : "ITS",
+        "titles" : "ITS",
+        "datatype" : "string"
+      }, {
+        "name" : "associatedTaxa",
+        "titles" : "Host speices for assays",
+        "delimiter": ",",
+        "datatype" : "string"
+      }, {
+        "name" : "Range and region",
+        "titles" : "Range and region",
+        "datatype" : "string"
+      }, {
+        "name" : "Culture.code",
+        "titles" : "Culture.code",
+        "datatype" : "string"
+      }, {
+        "name" : "NRRL accession",
+        "titles" : "NRRL accession",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
